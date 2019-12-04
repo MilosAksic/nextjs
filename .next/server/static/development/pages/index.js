@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\next-example\\components\\Header.js";
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -166,7 +166,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\next-example\\components\\MyLayout.js";
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\MyLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -214,7 +214,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _validation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./validation */ "./components/validation.js");
 
 
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\next-example\\components\\NameForm.js";
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\NameForm.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -474,7 +474,7 @@ const reducer = (state, action) => {
 /*!****************************************!*\
   !*** ./components/styledComponents.js ***!
   \****************************************/
-/*! exports provided: Title, Wrapper, Button, TomatoButton, Input, BrandedButton, Rotate, ErrorMsg, Grid */
+/*! exports provided: Title, Wrapper, Button, TomatoButton, Input, BrandedButton, Rotate, ErrorMsg, Grid, Typography */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -488,50 +488,92 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Rotate", function() { return Rotate; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorMsg", function() { return ErrorMsg; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return Grid; });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Typography", function() { return Typography; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\styledComponents.js";
 
-const Title = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1.withConfig({
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1.withConfig({
   displayName: "styledComponents__Title",
   componentId: "yin75o-0"
 })(["font-size:50px;color:", ";"], ({
   theme
 }) => theme.colors.primary);
-const ErrorMsg = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+const ErrorMsg = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "styledComponents__ErrorMsg",
   componentId: "yin75o-1"
 })(["color:white;font-size:20px;"]);
-const Grid = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+const Grid = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "styledComponents__Grid",
   componentId: "yin75o-2"
-})(["display:", ";flex-direction:", ";justify-content:", ";align-items:", ";align-content:", ";@media (max-width:600px){width:", ";}@media only screen and (max-width:960px) and (min-width:601px){width:", ";}@media only screen and (max-width:1280px) and (min-width:961px){width:", ";}@media only screen and (max-width:1920px) and (min-width:1281px){width:", ";}@media (min-width:1921px){width:", ";}"], props => props.container ? "flex" : "block", props => props.direction === "column" ? "column" : "row", props => props.justify === "flex-start" ? "flex-start" : props.justify, props => props.alignItems === "stretch" ? "stretch" : props.alignItems, props => props.alignContent === "stretch" ? "stretch" : props.alignContent, props => props.xs ? `calc(${props.xs}*(100%/12) )` : "auto", props => props.sm ? `calc(${props.sm}*(100%/12) )` : "auto", props => props.md ? `calc(${props.md}*(100%/12) )` : "auto", props => props.lg ? `calc(${props.lg}*(100%/12) )` : "auto", props => props.xl ? `calc(${props.xl}*(100%/12) )` : "auto");
-const Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.section.withConfig({
+})(["display:", ";flex-direction:", ";justify-content:", ";align-items:", ";align-content:", ";@media all and (max-width:600px) and (min-width:0),(min-width:601px){width:", ";}@media all and (max-width:960px) and (min-width:601px),(min-width:961px){width:", ";}@media all and (max-width:1280px) and (min-width:961px),(min-width:1281px){width:", ";}@media all and (max-width:1920px) and (min-width:1280px),(min-width:1921px){width:", ";}@media (min-width:1922px){width:", ";}"], props => props.container ? "flex" : "block", props => props.direction === "column" ? "column" : "row", props => props.justify === "flex-start" ? "flex-start" : props.justify, props => props.alignItems === "stretch" ? "stretch" : props.alignItems, props => props.alignContent === "stretch" ? "stretch" : props.alignContent, props => props.xs ? `calc(${props.xs}*(100%/12) )` : "auto", props => props.sm ? `calc(${props.sm}*(100%/12) )` : props.xs, props => props.md ? `calc(${props.md}*(100%/12) )` : props.xs, props => props.lg ? `calc(${props.lg}*(100%/12) )` : props.xs, props => props.xl ? `calc(${props.xl}*(100%/12) )` : props.xs);
+const Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.section.withConfig({
   displayName: "styledComponents__Wrapper",
   componentId: "yin75o-3"
 })(["padding:4em;background:gray;"]);
-const Button = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.button.withConfig({
+const Button = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.button.withConfig({
   displayName: "styledComponents__Button",
   componentId: "yin75o-4"
 })(["background:", ";color:", ";&:hover{cursor:pointer;}font-size:1em;margin:1em;padding:0.25em 1em;border:2px solid palevioletred;border-radius:3px;"], props => props.primary ? "palevioletred" : "white", props => props.primary ? "white" : "palevioletred");
-const TomatoButton = styled_components__WEBPACK_IMPORTED_MODULE_0___default()(Button).withConfig({
+const TomatoButton = styled_components__WEBPACK_IMPORTED_MODULE_1___default()(Button).withConfig({
   displayName: "styledComponents__TomatoButton",
   componentId: "yin75o-5"
 })(["color:tomato;border-color:tomato;"]);
-const Input = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.input.withConfig({
+const Input = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.input.withConfig({
   displayName: "styledComponents__Input",
   componentId: "yin75o-6"
 })(["padding:0.5em;margin:0.5em;color:", ";background:papayawhip;border:none;border-radius:3px;"], props => props.inputColor || "black");
-const BrandedButton = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.button.withConfig({
+const BrandedButton = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.button.withConfig({
   displayName: "styledComponents__BrandedButton",
   componentId: "yin75o-7"
 })(["color:", ";&:hover{color:", ";}"], props => props.themeColor, props => props.themeHoverColor); // Create the keyframes
 
-const rotate = Object(styled_components__WEBPACK_IMPORTED_MODULE_0__["keyframes"])(["from{transform:rotate(0deg);}to{transform:rotate(360deg);}"]); // Here we create a component that will rotate everything we pass in over two seconds
+const rotate = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["keyframes"])(["from{transform:rotate(0deg);}to{transform:rotate(360deg);}"]); // Here we create a component that will rotate everything we pass in over two seconds
 
-const Rotate = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+const Rotate = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "styledComponents__Rotate",
   componentId: "yin75o-8"
 })(["display:inline-block;animation:", " 5s linear infinite;padding:2rem 1rem;font-size:1.2rem;"], rotate);
+const StyledHeading = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "styledComponents__StyledHeading",
+  componentId: "yin75o-9"
+})(["font-size:", "em;font-weight:300;margin:0;text-align:", ";"], ({
+  size
+}) => 4 / size, props => props.align);
+
+const Typography = ({
+  variant = "h1",
+  children,
+  align = "inherit"
+}) => {
+  let newVariant = variant;
+  let size = newVariant.split("");
+  size = size[1];
+
+  if (variant === "subtitle1" || variant === "subtitle2") {
+    newVariant = "h6";
+    size = 5;
+  } else if (variant === "body1" || variant === "body2") {
+    newVariant = "p";
+    size = 5;
+  }
+
+  return __jsx(StyledHeading, {
+    as: `${newVariant}`,
+    size: size,
+    align: align,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 172
+    },
+    __self: undefined
+  }, children);
+};
+
 
 
 /***/ }),
@@ -2619,7 +2661,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
 /* harmony import */ var _components_styledComponents__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/styledComponents */ "./components/styledComponents.js");
 /* harmony import */ var _components_NameForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/NameForm */ "./components/NameForm.js");
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\next-example\\pages\\index.js";
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2629,32 +2671,32 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 14
   },
   __self: undefined
 }, __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Wrapper"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 15
   },
   __self: undefined
 }, __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Title"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 16
   },
   __self: undefined
 }, "Hello Next.js"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Button"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 18
   },
   __self: undefined
 }, "Normal"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Button"], {
   primary: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 20
   },
   __self: undefined
 }, "Primary"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["TomatoButton"], {
@@ -2662,7 +2704,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   href: "/",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 21
   },
   __self: undefined
 }, "Tomato button"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Input"], {
@@ -2670,7 +2712,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   type: "text",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 24
   },
   __self: undefined
 }), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Input"], {
@@ -2679,7 +2721,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   inputColor: "rebeccapurple",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 25
   },
   __self: undefined
 }), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["BrandedButton"], {
@@ -2687,13 +2729,51 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   themeColor: "blue",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 26
   },
   __self: undefined
-}, "Click Me!"), __jsx(_components_NameForm__WEBPACK_IMPORTED_MODULE_3__["default"], {
+}, "Click Me!"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  variant: "subtitle1",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28
+    lineNumber: 29
+  },
+  __self: undefined
+}, "Nesto"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  variant: "h2",
+  align: "left",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, "h2"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  variant: "h3",
+  align: "center",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34
+  },
+  __self: undefined
+}, "h3"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  variant: "h4",
+  align: "right",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, "h4"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  variant: "body2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 40
+  },
+  __self: undefined
+}, "Body2"), __jsx(_components_NameForm__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41
   },
   __self: undefined
 }), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -2701,7 +2781,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   justify: "center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 42
   },
   __self: undefined
 }, __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -2713,7 +2793,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 30
+    lineNumber: 43
   },
   __self: undefined
 }, __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -2721,20 +2801,20 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   direction: "column",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 47
   },
   __self: undefined
 }, __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
   item: true,
-  xs: 5,
-  sm: 2,
+  xs: 7,
+  sm: 3,
   style: {
     height: "50px",
     border: "2px solid red"
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 48
   },
   __self: undefined
 }), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -2746,7 +2826,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 54
   },
   __self: undefined
 }))), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -2758,7 +2838,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47
+    lineNumber: 60
   },
   __self: undefined
 }, "12"))));
@@ -2774,7 +2854,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Front end\Praksa\next-vezba\next-example\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Front end\Praksa\next-vezba\nextjs\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

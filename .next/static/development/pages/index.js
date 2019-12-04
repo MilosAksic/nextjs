@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\next-example\\components\\Header.js";
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -75,7 +75,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\next-example\\components\\MyLayout.js";
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\MyLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -125,7 +125,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _validation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./validation */ "./components/validation.js");
 
 
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\next-example\\components\\NameForm.js";
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\NameForm.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -383,7 +383,7 @@ var reducer = function reducer(state, action) {
 /*!****************************************!*\
   !*** ./components/styledComponents.js ***!
   \****************************************/
-/*! exports provided: Title, Wrapper, Button, TomatoButton, Input, BrandedButton, Rotate, ErrorMsg, Grid */
+/*! exports provided: Title, Wrapper, Button, TomatoButton, Input, BrandedButton, Rotate, ErrorMsg, Grid, Typography */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -397,23 +397,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Rotate", function() { return Rotate; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorMsg", function() { return ErrorMsg; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return Grid; });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Typography", function() { return Typography; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\styledComponents.js";
 
-var Title = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1.withConfig({
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
   displayName: "styledComponents__Title",
   componentId: "yin75o-0"
 })(["font-size:50px;color:", ";"], function (_ref) {
   var theme = _ref.theme;
   return theme.colors.primary;
 });
-var ErrorMsg = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+var ErrorMsg = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "styledComponents__ErrorMsg",
   componentId: "yin75o-1"
 })(["color:white;font-size:20px;"]);
-var Grid = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+var Grid = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "styledComponents__Grid",
   componentId: "yin75o-2"
-})(["display:", ";flex-direction:", ";justify-content:", ";align-items:", ";align-content:", ";@media (max-width:600px){width:", ";}@media only screen and (max-width:960px) and (min-width:601px){width:", ";}@media only screen and (max-width:1280px) and (min-width:961px){width:", ";}@media only screen and (max-width:1920px) and (min-width:1281px){width:", ";}@media (min-width:1921px){width:", ";}"], function (props) {
+})(["display:", ";flex-direction:", ";justify-content:", ";align-items:", ";align-content:", ";@media all and (max-width:600px) and (min-width:0),(min-width:601px){width:", ";}@media all and (max-width:960px) and (min-width:601px),(min-width:961px){width:", ";}@media all and (max-width:1280px) and (min-width:961px),(min-width:1281px){width:", ";}@media all and (max-width:1920px) and (min-width:1280px),(min-width:1921px){width:", ";}@media (min-width:1922px){width:", ";}"], function (props) {
   return props.container ? "flex" : "block";
 }, function (props) {
   return props.direction === "column" ? "column" : "row";
@@ -426,19 +432,19 @@ var Grid = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withCon
 }, function (props) {
   return props.xs ? "calc(".concat(props.xs, "*(100%/12) )") : "auto";
 }, function (props) {
-  return props.sm ? "calc(".concat(props.sm, "*(100%/12) )") : "auto";
+  return props.sm ? "calc(".concat(props.sm, "*(100%/12) )") : props.xs;
 }, function (props) {
-  return props.md ? "calc(".concat(props.md, "*(100%/12) )") : "auto";
+  return props.md ? "calc(".concat(props.md, "*(100%/12) )") : props.xs;
 }, function (props) {
-  return props.lg ? "calc(".concat(props.lg, "*(100%/12) )") : "auto";
+  return props.lg ? "calc(".concat(props.lg, "*(100%/12) )") : props.xs;
 }, function (props) {
-  return props.xl ? "calc(".concat(props.xl, "*(100%/12) )") : "auto";
+  return props.xl ? "calc(".concat(props.xl, "*(100%/12) )") : props.xs;
 });
-var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].section.withConfig({
+var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.withConfig({
   displayName: "styledComponents__Wrapper",
   componentId: "yin75o-3"
 })(["padding:4em;background:gray;"]);
-var Button = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].button.withConfig({
+var Button = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].button.withConfig({
   displayName: "styledComponents__Button",
   componentId: "yin75o-4"
 })(["background:", ";color:", ";&:hover{cursor:pointer;}font-size:1em;margin:1em;padding:0.25em 1em;border:2px solid palevioletred;border-radius:3px;"], function (props) {
@@ -446,17 +452,17 @@ var Button = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].button.wi
 }, function (props) {
   return props.primary ? "white" : "palevioletred";
 });
-var TomatoButton = Object(styled_components__WEBPACK_IMPORTED_MODULE_0__["default"])(Button).withConfig({
+var TomatoButton = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(Button).withConfig({
   displayName: "styledComponents__TomatoButton",
   componentId: "yin75o-5"
 })(["color:tomato;border-color:tomato;"]);
-var Input = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].input.withConfig({
+var Input = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].input.withConfig({
   displayName: "styledComponents__Input",
   componentId: "yin75o-6"
 })(["padding:0.5em;margin:0.5em;color:", ";background:papayawhip;border:none;border-radius:3px;"], function (props) {
   return props.inputColor || "black";
 });
-var BrandedButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].button.withConfig({
+var BrandedButton = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].button.withConfig({
   displayName: "styledComponents__BrandedButton",
   componentId: "yin75o-7"
 })(["color:", ";&:hover{color:", ";}"], function (props) {
@@ -465,12 +471,52 @@ var BrandedButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].bu
   return props.themeHoverColor;
 }); // Create the keyframes
 
-var rotate = Object(styled_components__WEBPACK_IMPORTED_MODULE_0__["keyframes"])(["from{transform:rotate(0deg);}to{transform:rotate(360deg);}"]); // Here we create a component that will rotate everything we pass in over two seconds
+var rotate = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["keyframes"])(["from{transform:rotate(0deg);}to{transform:rotate(360deg);}"]); // Here we create a component that will rotate everything we pass in over two seconds
 
-var Rotate = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+var Rotate = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "styledComponents__Rotate",
   componentId: "yin75o-8"
 })(["display:inline-block;animation:", " 5s linear infinite;padding:2rem 1rem;font-size:1.2rem;"], rotate);
+var StyledHeading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "styledComponents__StyledHeading",
+  componentId: "yin75o-9"
+})(["font-size:", "em;font-weight:300;margin:0;text-align:", ";"], function (_ref2) {
+  var size = _ref2.size;
+  return 4 / size;
+}, function (props) {
+  return props.align;
+});
+
+var Typography = function Typography(_ref3) {
+  var _ref3$variant = _ref3.variant,
+      variant = _ref3$variant === void 0 ? "h1" : _ref3$variant,
+      children = _ref3.children,
+      _ref3$align = _ref3.align,
+      align = _ref3$align === void 0 ? "inherit" : _ref3$align;
+  var newVariant = variant;
+  var size = newVariant.split("");
+  size = size[1];
+
+  if (variant === "subtitle1" || variant === "subtitle2") {
+    newVariant = "h6";
+    size = 5;
+  } else if (variant === "body1" || variant === "body2") {
+    newVariant = "p";
+    size = 5;
+  }
+
+  return __jsx(StyledHeading, {
+    as: "".concat(newVariant),
+    size: size,
+    align: align,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 172
+    },
+    __self: this
+  }, children);
+};
+
 
 
 /***/ }),
@@ -13269,10 +13315,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CFront%20end%5CPraksa%5Cnext-vezba%5Cnext-example%5Cpages%5Cindex.js!./":
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CFront%20end%5CPraksa%5Cnext-vezba%5Cnext-example%5Cpages%5Cindex.js ***!
-  \***************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CFront%20end%5CPraksa%5Cnext-vezba%5Cnextjs%5Cpages%5Cindex.js!./":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CFront%20end%5CPraksa%5Cnext-vezba%5Cnextjs%5Cpages%5Cindex.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24801,7 +24847,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
 /* harmony import */ var _components_styledComponents__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/styledComponents */ "./components/styledComponents.js");
 /* harmony import */ var _components_NameForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/NameForm */ "./components/NameForm.js");
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\next-example\\pages\\index.js";
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -24812,32 +24858,32 @@ var Index = function Index() {
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Wrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Title"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, "Hello Next.js"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Button"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }, "Normal"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Button"], {
     primary: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, "Primary"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["TomatoButton"], {
@@ -24845,7 +24891,7 @@ var Index = function Index() {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, "Tomato button"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Input"], {
@@ -24853,7 +24899,7 @@ var Index = function Index() {
     type: "text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Input"], {
@@ -24862,7 +24908,7 @@ var Index = function Index() {
     inputColor: "rebeccapurple",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["BrandedButton"], {
@@ -24870,13 +24916,51 @@ var Index = function Index() {
     themeColor: "blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
-  }, "Click Me!"), __jsx(_components_NameForm__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Click Me!"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+    variant: "subtitle1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
+    },
+    __self: this
+  }, "Nesto"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+    variant: "h2",
+    align: "left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "h2"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+    variant: "h3",
+    align: "center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "h3"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+    variant: "h4",
+    align: "right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "h4"), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+    variant: "body2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Body2"), __jsx(_components_NameForm__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
     },
     __self: this
   }), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -24884,7 +24968,7 @@ var Index = function Index() {
     justify: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 42
     },
     __self: this
   }, __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -24896,7 +24980,7 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 43
     },
     __self: this
   }, __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -24904,20 +24988,20 @@ var Index = function Index() {
     direction: "column",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 47
     },
     __self: this
   }, __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
-    xs: 5,
-    sm: 2,
+    xs: 7,
+    sm: 3,
     style: {
       height: "50px",
       border: "2px solid red"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 48
     },
     __self: this
   }), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -24929,7 +25013,7 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 54
     },
     __self: this
   }))), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -24941,7 +25025,7 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 60
     },
     __self: this
   }, "12"))));
@@ -24952,13 +25036,13 @@ var Index = function Index() {
 /***/ }),
 
 /***/ 1:
-/*!*******************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CFront%20end%5CPraksa%5Cnext-vezba%5Cnext-example%5Cpages%5Cindex.js ***!
-  \*******************************************************************************************************************************************/
+/*!*************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CFront%20end%5CPraksa%5Cnext-vezba%5Cnextjs%5Cpages%5Cindex.js ***!
+  \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CFront%20end%5CPraksa%5Cnext-vezba%5Cnext-example%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CFront%20end%5CPraksa%5Cnext-vezba%5Cnext-example%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CFront%20end%5CPraksa%5Cnext-vezba%5Cnextjs%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CFront%20end%5CPraksa%5Cnext-vezba%5Cnextjs%5Cpages%5Cindex.js!./");
 
 
 /***/ }),

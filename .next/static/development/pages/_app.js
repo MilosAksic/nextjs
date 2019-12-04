@@ -10465,7 +10465,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\next-example\\pages\\_app.js";
+var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 

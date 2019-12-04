@@ -6,7 +6,8 @@ import {
   Button,
   TomatoButton,
   Input,
-  BrandedButton
+  BrandedButton,
+  Typography
 } from "../components/styledComponents";
 import NameForm from "../components/NameForm";
 const Index = () => (
@@ -25,6 +26,18 @@ const Index = () => (
       <BrandedButton themeHoverColor="pink" themeColor="blue">
         Click Me!
       </BrandedButton>
+      <Typography variant="subtitle1">Nesto</Typography>
+
+      <Typography variant="h2" align="left">
+        h2
+      </Typography>
+      <Typography variant="h3" align="center">
+        h3
+      </Typography>
+      <Typography variant="h4" align="right">
+        h4
+      </Typography>
+      <Typography variant="body2">Body2</Typography>
       <NameForm />
       <Grid container justify="center">
         <Grid
@@ -34,8 +47,8 @@ const Index = () => (
           <Grid container direction="column">
             <Grid
               item
-              xs={5}
-              sm={2}
+              xs={7}
+              sm={3}
               style={{ height: "50px", border: "2px solid red" }}
             ></Grid>
             <Grid
