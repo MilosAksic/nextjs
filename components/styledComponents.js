@@ -20,59 +20,6 @@ const Grid = styled.div`
   align-content: ${props =>
     props.alignContent === "stretch" ? "stretch" : props.alignContent};
 
-  /* @media all and (max-width: 600px) and (min-width: 0), (min-width: 601px) {
-    width: ${props => (props.xs ? `calc(${props.xs}*(100%/12) )` : "auto")};
-  }
-  @media all and (max-width: 960px) and (min-width: 601px), (min-width: 961px) {
-    width: ${props =>
-      props.sm
-        ? `calc(${props.sm}*(100%/12) )`
-        : props.xs
-        ? `calc(${props.xs}*(100%/12) )`
-        : "auto"};
-  }
-
-  @media all and (max-width: 1280px) and (min-width: 961px),
-    (min-width: 1281px) {
-    width: ${props =>
-      props.md
-        ? `calc(${props.md}*(100%/12) )`
-        : props.sm
-        ? `calc(${props.sm}*(100%/12) )`
-        : props.xs
-        ? `calc(${props.xs}*(100%/12) )`
-        : "auto"};
-  }
-
-  @media all and (max-width: 1920px) and (min-width: 1280px),
-    (min-width: 1921px) {
-    width: ${props =>
-      props.lg
-        ? `calc(${props.lg}*(100%/12) )`
-        : props.md
-        ? `calc(${props.md}*(100%/12) )`
-        : props.sm
-        ? `calc(${props.sm}*(100%/12) )`
-        : props.xs
-        ? `calc(${props.xs}*(100%/12) )`
-        : "auto"};
-  }
-
-  @media (min-width: 1922px) {
-    width: ${props =>
-      props.xl
-        ? `calc(${props.xl}*(100%/12) )`
-        : props.lg
-        ? `calc(${props.lg}*(100%/12) )`
-        : props.md
-        ? `calc(${props.md}*(100%/12) )`
-        : props.sm
-        ? `calc(${props.sm}*(100%/12) )`
-        : props.xs
-        ? `calc(${props.xs}*(100%/12) )`
-        : "auto"};
-  } */
-
   @media all and (max-width: 600px) and (min-width:0) , (min-width:601px) {
     width: ${props => (props.xs ? `calc(${props.xs}*(100%/12) )` : "auto")};
   }

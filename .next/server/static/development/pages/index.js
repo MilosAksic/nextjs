@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\Header.js";
+var _jsxFileName = "C:\\Users\\staca\\Desktop\\ThinkSmart\\nextjs\\components\\Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -166,7 +166,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\MyLayout.js";
+var _jsxFileName = "C:\\Users\\staca\\Desktop\\ThinkSmart\\nextjs\\components\\MyLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -214,7 +214,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _validation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./validation */ "./components/validation.js");
 
 
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\NameForm.js";
+var _jsxFileName = "C:\\Users\\staca\\Desktop\\ThinkSmart\\nextjs\\components\\NameForm.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -493,7 +493,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\components\\styledComponents.js";
+var _jsxFileName = "C:\\Users\\staca\\Desktop\\ThinkSmart\\nextjs\\components\\styledComponents.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -568,7 +568,7 @@ const Typography = ({
     align: align,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 119
     },
     __self: undefined
   }, children);
@@ -2661,7 +2661,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
 /* harmony import */ var _components_styledComponents__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/styledComponents */ "./components/styledComponents.js");
 /* harmony import */ var _components_NameForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/NameForm */ "./components/NameForm.js");
-var _jsxFileName = "C:\\Front end\\Praksa\\next-vezba\\nextjs\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\staca\\Desktop\\ThinkSmart\\nextjs\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2808,6 +2808,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   item: true,
   xs: 7,
   sm: 3,
+  lg: 8,
   style: {
     height: "50px",
     border: "2px solid red"
@@ -2826,7 +2827,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 54
+    lineNumber: 55
   },
   __self: undefined
 }))), __jsx(_components_styledComponents__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
@@ -2838,7 +2839,7 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 60
+    lineNumber: 61
   },
   __self: undefined
 }, "12"))));
@@ -2847,14 +2848,14 @@ const Index = () => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["def
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Front end\Praksa\next-vezba\nextjs\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\staca\Desktop\ThinkSmart\nextjs\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

@@ -49,6 +49,7 @@ const Index = () => (
               item
               xs={7}
               sm={3}
+              lg={8}
               style={{ height: "50px", border: "2px solid red" }}
             ></Grid>
             <Grid
